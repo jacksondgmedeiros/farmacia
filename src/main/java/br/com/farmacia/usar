@@ -1,0 +1,26 @@
+var opcao = exibirMenu();
+
+        while (opcao != 10){
+            try{
+                case 1:
+            } catch (Exception e){
+                throw new RuntimeException(e);
+            }
+            opcao = exibirMenu();
+        }
+
+        private static int exibirMenu(){
+            System.out.println("""
+                    ESCOLHA UMA OPÇÃO:
+                    1 - Cadastrar produto
+
+                    10 - sair
+                    """);
+            return teclado.nextInt();
+        }
+
+        private static void cadastrarProduto(){
+            System.out.println("");
+            var id = teclado.nextInt();
+
+        }
